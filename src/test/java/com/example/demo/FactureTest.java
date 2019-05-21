@@ -8,8 +8,12 @@ public class FactureTest {
     @Test
     public void getTotal_factureVideSansArticleRetourneZero () {
 
+        //GIVEN
         Facture facture = new Facture();
 
+        //WHEN
         Double total = facture.getTotal();
+
+        //THEN
     }
 }
