@@ -5,7 +5,6 @@ import java.util.Set;
 
 @Entity
 public class Facture {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
